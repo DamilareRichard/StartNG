@@ -104,8 +104,8 @@ header p {
 
 .img-wrapper {
 	display: grid;
-	grid-template-columns: 1fr  1fr;
-	margin: 100px 335px;
+	grid-template-columns: 1fr  1fr 1fr;
+	margin: 100px 170px;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -129,31 +129,31 @@ header p {
 
 .first {
 	background: #E4EDF2;
-	padding: 10px 15px;
+	padding: 10px 10px;
 	border-radius: 0px 0px 10px 10px;
 }
 
 .second, .third, .fourth, .fifth, .sixth {
 	background: #E4EDF2;
-	padding: 10px 15px;
+	padding: 10px 10px;
 	height: 143px;
 	border-radius: 0px 0px 10px 10px;
 
 }
 
 .btn p {
-	margin-left: 350px;
+	margin-left: 200px;
 	margin-top: -100px;
-	font-size: 30px;
+	font-size: 28px;
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #555555;
 
 }
 
 .btn a {
-	margin-left: 40px;
+	margin-left: -120px;
 	text-transform: uppercase;
-	font-size: 26px; 
+	font-size: 24px; 
 	font-weight: bold;
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #444444;
@@ -165,7 +165,7 @@ header p {
 footer {
 	background-color: #24116A;
 	min-height: 80vh;
-	margin-top: 1100px;
+	margin-top: 550px;
 	color: #FFFFFF;
 	font-family: 'Roboto Condensed', sans-serif;
 	
@@ -314,7 +314,7 @@ hr {
 
 	footer {
 		margin-top: 2580px;
-		min-height: 95vh;
+		min-height: 90vh;
 		
 	}
 
