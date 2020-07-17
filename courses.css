@@ -193,6 +193,7 @@ header p {
 .prevbtn i {
 	margin: 5px;
 	font-size: 18px;
+	color: #fff;
 }
 .nextbtn {
 	background-color: #24116A;
@@ -212,6 +213,7 @@ header p {
 .nextbtn i {
 	margin: 5px;
 	font-size: 18px;
+	color: #fff;
 }
 
 footer {
