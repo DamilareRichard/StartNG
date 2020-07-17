@@ -184,7 +184,7 @@ header p {
 .prevbtn i {
 	 margin: 2px;
 	font-size: 18px;
-	color: #fff;
+
 }
 
 
@@ -360,7 +360,7 @@ hr {
 		padding: 2px 15px;	
 	}
 	.prevbtn {
-		margin-left: 100px;
+		margin-left: 120px;
 		width: 70%;
 	}
 	.prevbtn a i {
