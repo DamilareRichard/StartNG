@@ -1,0 +1,730 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+
+header {
+  text-align: center;
+  padding-left: 50px;
+  color: #f2f2f2;
+}
+h1,
+h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 60px;
+  font-weight: bold;
+}
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 56px;
+  letter-spacing: -1px;
+}
+
+h3 {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+h4 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+}
+p {
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* Navigation bar */
+.navbar {
+  height: 100px;
+  background-color: #24116a;
+  position: relative;
+  z-index: 600;
+  margin: 0 auto;
+  padding: 0;
+}
+.navbar-brand {
+  padding: 1px 0px 17px 5px;
+  margin: 0;
+}
+.nav-item {
+  margin-right: 23px;
+}
+li:nth-last-of-type(1) {
+  margin-right: 34px;
+}
+.nav-link {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #fff;
+  padding: 0;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.hero-container {
+  background: #24116a url("../images/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 1440px 816px;
+  height: 816px;
+  max-width: 1440px;
+  align-items: center;
+  padding-top: 267px;
+}
+
+.bg-image-left {
+  width: 433px;
+  height: 424px;
+  position: absolute;
+  left: -23px;
+  top: 0px;
+}
+.bg-image-right {
+  width: 531px;
+  height: 518px;
+  position: absolute;
+  right: 0;
+  top: 378px;
+}
+
+/* Title */
+
+.main-header {
+  width: 730px;
+  margin: 0 auto;
+  margin-bottom: 28px;
+}
+.header-paragraph {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f2f2f2;
+  width: 730px;
+  margin: 0 auto;
+  margin-bottom: 36px;
+}
+
+.get-started {
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 502px;
+  padding-right: 501px;
+}
+
+.custom-btn {
+  border: solid 1px;
+}
+.custom-btn input[type="text"] {
+  border: none;
+  border-radius: 43px;
+  background: linear-gradient(104.22deg, #335df2 0.74%, #0024a2 92.22%);
+  width: 100%;
+  padding-right: 150px;
+}
+.custom-btn .input-group-prepend {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  bottom: 4px;
+  z-index: 9;
+  font-size: 18px;
+}
+.start-now {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 43px;
+}
+.modal-content {
+  background: #ffffff;
+  color: #333333;
+  border-radius: 54px;
+  width: 581px;
+  height: 787px;
+  margin: 0 auto;
+  padding: 14px 0px 59px 0px;
+}
+.purple-container {
+  background: #24116a;
+  border-radius: 50px;
+  width: 100%;
+  height: 399px;
+  margin: 0 auto;
+}
+.modal-head {
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 60px;
+  margin-top: 56px;
+  margin-bottom: 28px;
+  width: 444px;
+  margin: 56px auto 28px;
+}
+.modal-paragraph {
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 28px;
+
+  width: 348px;
+  text-align: center;
+  margin: 0 auto;
+}
+.modal-close-btn {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #24116a;
+  background: #ffffff;
+  margin-top: 27px;
+  border: none;
+}
+
+/* Key Features */
+#key-features {
+  padding: 122px 207px 40px 149px;
+  text-align: center;
+}
+.key-features-heading {
+  padding-bottom: 138px;
+}
+.key-feature-container {
+  padding-left: 16px;
+}
+.curriculum-container {
+  text-align: left;
+  margin-bottom: 82px;
+}
+.curriculum-big-heading {
+  width: 471px;
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+.curriculum-paragraph {
+  width: 190px;
+  margin-top: 16px;
+}
+
+.programming-language {
+  width: 409px;
+}
+.programming-language img {
+  width: 100%;
+  height: 368px;
+}
+
+.computer-image {
+  width: 620px;
+  height: 527px;
+  padding: 0;
+  margin-right: 61px;
+}
+.computer-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.our-teachers-container {
+  text-align: left;
+}
+.our-teachers-big-heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: -1px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.our-teachers-paragraph {
+  width: 203px;
+  margin-top: 16px;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  padding: 14px 0;
+}
+.testimonial-heading {
+  margin-bottom: 114px;
+}
+.image-top {
+  display: block;
+  position: relative;
+  top: 0px;
+}
+.image-down {
+  display: block;
+  position: relative;
+  top: 60px;
+}
+
+.first-image {
+  margin-bottom: 34.51px;
+}
+
+/* Hidden item */
+.textimonial-box {
+  padding: 26px 25px 24px 23px;
+  background: #ffffff;
+  box-shadow: 0px -8.07762px 56.2977px rgba(0, 0, 0, 0.0282725),
+    0px 5.90994px 74.2382px rgba(0, 0, 0, 0.0417275),
+    0px 100px 80px rgba(0, 0, 0, 0.07);
+  border-radius: 23px;
+  width: 444px;
+  height: 345px;
+  margin: 0 auto;
+  text-align: left;
+  /* display: none; */
+}
+.testimonial-paragraph {
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 28px;
+  color: #121212;
+  margin-bottom: 41px;
+}
+.small-avatar {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.small-avatar img {
+  width: 100%;
+  height: 100%;
+}
+
+.testimonial-name {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+}
+.testimonial-description {
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* Join-us */
+#join-us {
+  padding: 110px 152px 42px 153px;
+}
+
+.join-us-container {
+  background: linear-gradient(180deg, #1d8fb6 -25.65%, #28c3fa 100%);
+  border-radius: 18px;
+  padding-top: 63px;
+  padding-bottom: 21px;
+  text-align: center;
+}
+
+.join-us-heading {
+  width: 471px;
+  margin: 0 auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #edf2f7;
+}
+
+.join-us-paragraph {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #edf2f7;
+  width: 540px;
+  margin: 0 auto;
+  padding-bottom: 24px;
+  padding-top: 10px;
+}
+
+.join-us-link {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  align-items: center;
+  color: #ffffff;
+}
+
+/* Footer */
+#footer {
+  padding: 40px 165px 40px;
+  text-align: center;
+}
+.footer-container {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.company-brand {
+  width: 89.31px;
+  height: 24px;
+  margin: 0 0px 0 0;
+  padding: 0;
+}
+.company-brand-img {
+  height: 100%;
+  padding: 0;
+}
+.footer-items-container {
+  padding: 0;
+}
+
+.footer-items {
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+.footer-items li {
+  margin-right: 30px;
+}
+.footer-items li:nth-last-of-type(1) {
+  /* margin-right: 182px; */
+}
+
+.lang-version {
+  padding: 0;
+}
+
+.en-version {
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+footer {
+  background-color: #24116A;
+  min-height: 85vh;
+  margin-top: 50px;
+  color: #FFFFFF;
+  font-family: 'Roboto Condensed', sans-serif;
+  
+}
+
+footer img {
+  margin-left: 65px;
+  width: 150px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+
+}
+
+.sub-wrapper i {
+  padding: 8px 10px;
+  background-color:#FFFFFF;
+  color: #000;
+  cursor: pointer;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+
+.sub-wrapper p a {
+  color: #FFFFFF;
+
+}
+
+hr {
+  border-top: 1px solid #E4EDF2;
+  width: 87%;
+  margin: auto;
+  
+}
+
+.copyright {
+  margin-left: 85px;
+  margin-top: 20px;
+}
+
+@media all and (max-width: 720px) {
+  /* Header */
+
+  .bg-image-left {
+    width: 151px;
+    height: 148px;
+    position: absolute;
+    left: -98px;
+    top: 70px;
+  }
+  .hero-container {
+    padding-top: 81px;
+  }
+  header {
+    padding-left: 35px;
+  }
+  .main-header {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    width: 308px;
+    margin: 0 auto;
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+  .header-paragraph {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    width: 308px;
+    margin: 0 auto;
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+
+  .get-started {
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 24px;
+  }
+
+
+
+
+  .bg-image-right {
+    width: 203px;
+    height: 198px;
+    position: absolute;
+    right: 0;
+    top: 578px;
+  }
+  #key-features {
+    padding: 66px 15px 48px 15px;
+    margin: 0 auto;
+  }
+  .key-features-heading {
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    padding: 0;
+    margin-bottom: 42px;
+  }
+  .key-feature-container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .programming-language {
+    width: 335px;
+  }
+  .programming-language img {
+    width: 100%;
+    height: 301px;
+  }
+  .curriculum-heading {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    padding-bottom: 8px;
+  }
+  .curriculum-big-heading {
+    width: 345px;
+    margin: 0 auto;
+    margin-bottom: 36px;
+    font-size: 35px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+  }
+  .curriculum-paragraph {
+    font-size: 16px;
+    line-height: 20px;
+    width: 190px;
+    /* margin: 0 auto; */
+    margin-top: 16px;
+    /* margin-bottom: 63px; */
+    padding: 0;
+  }
+  .curriculum-container {
+    margin-bottom: 63px;
+  }
+
+  .our-teachers {
+    margin: 0;
+  }
+
+  .computer-image {
+    width: 348px;
+    height: 293px;
+    margin: 0;
+    margin-bottom: 32px;
+  }
+  .computer-image img {
+    width: 100%;
+  }
+
+  .our-teachers-heading {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 16px;
+  }
+  .our-teachers-big-heading {
+    font-size: 35px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    width: 207px;
+    margin-bottom: 48px;
+  }
+  .our-teachers-paragraph {
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 20px;
+    width: 203px;
+  }
+
+  #testimonials {
+    padding: 0 13px;
+  }
+  .testimonial-heading {
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    margin-bottom: 0;
+  }
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .display-testimonial-mid {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    top: 60px;
+  }
+  .display-testimonial {
+    display: block;
+    position: relative;
+    top: 0px;
+  }
+  .left-mobile {
+    left: -50.14px;
+  }
+  .right-mobile {
+    right: -49.35px;
+  }
+
+  .textimonial-box {
+    background: #ffffff;
+    box-shadow: 0px -8.07762px 56.2977px rgba(0, 0, 0, 0.0282725),
+      0px 5.90994px 74.2382px rgba(0, 0, 0, 0.0417275),
+      0px 100px 80px rgba(0, 0, 0, 0.07);
+    border-radius: 23px;
+    width: 348px;
+    height: 345px;
+    padding: 26px 13px 24px 15px;
+    position: relative;
+    z-index: 10;
+    top: -80px;
+  }
+  .testimonial-paragraph {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 13px;
+  }
+
+  /* Join us */
+  #join-us {
+    padding: 42px 0;
+  }
+  .join-us-container {
+    padding: 57px 18px 35px 13px;
+    text-align: center;
+  }
+  .join-us-heading {
+    font-size: 24px;
+    line-height: 36px;
+    width: 301px;
+    margin: 0 auto;
+  }
+
+  .join-us-paragraph {
+    font-size: 16px;
+    line-height: 28px;
+    width: 346px;
+    margin: 0 auto;
+    padding-bottom: 26px;
+  }
+  .join-us-link {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  #footer {
+    display: none;
+  }
+
+  footer {
+    margin-top: -30px;
+    min-height: 95vh;
+  }
+
+  footer img {
+    height: 140px;
+    margin-left: 120px;
+  }
+  .footer-wrapper {
+    margin-top: 10px;
+     
+  }
+
+  .footer-wrapper h3 {
+    font-size: 1.4rem;
+    padding: 0 17px;
+  }
+
+  .footer-wrapper p{
+    font-size: .9rem;
+    padding: 0 17px;
+  }
+  .sub-wrapper {
+    padding: 2px 7px;
+  }
+
+  .copyright {
+    margin-left: 60px;
+    margin-top: 9px;
+  }
+}
