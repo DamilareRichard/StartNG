@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required Meta Tags -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Font-Awesome Icons -->
+  <script src="https://use.fontawesome.com/44dfb82ff7.js"></script>
+
+  <!-- Google fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+
+  <!-- Original CSS -->
+  <!-- <link rel="stylesheet" href="style.css" /> -->
+
+  <title>Start.ng</title>
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /*overflow-x: hidden;*/
+  
+}
+.wrapper{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(0, 0, 0, .7);
+  
+}
+
+header{
+  background-image: url(img2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  z-index: 11111;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-wrapper img {
+  margin-left: 100px;
+  height: 170px;
+  z-index: 2;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-links li {
+  padding: 0 5px;
+  list-style: none;
+  margin-right: 40px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.l-pattern img {
+  margin-top: -32px;
+  margin-left: -32px;
+  width: 320px;
+  height: 200px;
+  z-index: 1;
+}
+
+header h1 {
+  margin-top: -90px;
+  padding: 0 15px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+header p {
+  text-align: center;
+  margin-left: 300px;
+  padding: 5px 15px;
+  color: #FFFFFF;
+  width: 58%;
+  font-family: 'Arial', sans-serif;
+
+}
+
+.r-pattern img {
+  width: 250px;
+  position: relative;
+  margin-left: 1095px;
+  margin-top: -57px;
+  z-index: 1;
+}
+
+.hamburger {
+  background-color: transparent;
+  border: 0;
+  font-size: 24px;
+    color: #fff;
+    display: none;
+
+ }
+
+ .hamburger:focus {
+  outline: none;
+ }
+
+input[type="text"] {
+  border-radius: 10px;
+  width: 30%;
+  border: none;
+  background-color: #fff;
+  margin-left: 475px;
+  padding: 10px 25px;
+}
+  
+
+ input[type="submit"] {
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  left: 743px;
+  top: 428px;
+  background: linear-gradient(104.22deg, #335df2 0.74%, #0024a2 92.22%);
+  width: 10%;
+  padding: 8px 23px;
+  outline: none;
+  z-index: 1;
+}
+
+
+.close-wrapper {
+  background: rgb(225, 225, 225, 1);
+  width: 22%;
+  height: 60%;
+  border-radius: 10px;
+  margin: 30px auto;
+  padding: 25px 10px;
+  position: absolute;
+  top: 150px;
+  left: 530px;
+  z-index: 2;
+}
+
+.close-wrapper h4{
+  margin-top: 200px;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.close-wrapper p {
+   font-family: 'Arial', sans-serif;
+   text-align: center;
+}
+
+.close {
+  background: #24116A;
+  opacity: 1;
+  width: 80%;
+  height: 50%;
+  position: absolute;
+  margin: 0px 25px;
+  border-radius: 20px;
+}
+
+
+
+.close i {
+  margin-left: 100px;
+  margin-top: 70px;
+  font-size: 62px;
+  color: #FFF;
+}
+
+.close-link {
+  text-align: center;
+  
+}
+
+.close-link a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  /* Header */
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  .header-wrapper img {
+    margin-left: 20px;
+    height: 100px;
+  }
+
+  .l-pattern img {
+    display: none;
+    width: 190px;
+    height: 130px;
+    margin-left: -48px;
+    margin-top: -20px;
+  }
+
+  .r-pattern img {
+    display: none;
+    width: 220px;
+    height: 150px;
+    margin-left: 165px;
+    margin-top: 17px;
+  }
+
+  header h1 {
+    text-align: center;
+    margin-left: -10px;
+    margin-top: 20px;
+  }
+
+  header p {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 95%;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .nav-links li {
+    padding: 0 10px;
+  }
+  .hamburger {
+    display: block;
+    margin-right: 15px;
+    margin-top: -15px;
+    position: relative;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+  
+input[type="text"] {
+  margin-left: 40px;
+  width: 70%;
+}
+
+input[type="submit"] {
+  
+  position: relative;
+  z-index: 2;
+  top: -42px;
+  left: 192px;
+  width: 25%;
+  padding: 8px 10px;
+}
+
+.close-wrapper {
+  left: 20px;
+  width: 85%;
+}
+
+</style>
+<body>
+       <div class="wrapper"> 
+      <header>
+                    <div class="header-wrapper">
+                        <img src="img1.png" alt="">
+
+                        <button class="hamburger" id="hamburger">
+                        <i class="fa fa-bars"></i>
+                        </button> 
+
+                        <ul class="nav-links" id="navLinks">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="learn.html">What You'll Learn</a></li>
+                            <li><a href="calender.html">Calender</a></li>
+                            <li><a href="FAQ.html">FAQ</a></li>
+                            <li><a href="#">Help</a></li>
+                        </ul>
+                    </div>
+                    <div class="l-pattern">
+                            <img src="LT.svg" alt="">
+                        </div>
+                        <h1>Become a Developer in less time than <br> expected!</h1>
+                        <p>Start.ng offers the best on hands practice in the world of programming. The training is for complete beginners who want to learn the basics of software development.</p>
+
+                        <input type="text" placeholder="Enter email">
+                        <input type="submit" name="submit-btn" value="Start Now">
+
+                    <div class="r-pattern">
+                            <img src="RB.svg" alt="">
+                        </div>
+
+                </header>  
+
+                <div class="close-wrapper">
+                  <div class="close">
+                  <!-- <i class="fa fa-times"></i> -->
+                  <i class="fa fa-times"></i>
+
+                  </div>
+
+                  <h4>Unfoturnately, Registration process has closed!</h4>
+                    <p>However, we can notify you when the next one would commence</p>
+                    <div class="close-link">
+                    <a href="index.html">Close</a>
+                  </div>
+                  
+                    
+                </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+         <!-- Optional JavaScript -->
+  <script src="app.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+      </body>
+      </html>
