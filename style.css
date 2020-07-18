@@ -547,7 +547,7 @@ input[type="submit"] {
 }
 
 .test-box {
-  top: 2470px;
+  top: 2480px;
   left: 15px;
   width: 90%;
 }
@@ -568,13 +568,13 @@ input[type="submit"] {
 }
 .join-us-header {
   width: 200%;
-  margin-left: -50px;
+  margin-left: -70px;
   padding: 10px 10px;
 }
 
 .join-us p {
   margin: 10px 0 20px -80px;
-  width: 250%; 
+  width: 300px; 
   font-family: Arial;
 }
 

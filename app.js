@@ -9,8 +9,3 @@ hamburger.addEventListener('click', () => {
 
 
 });
-
-function onClickQuestions() {
-
-	document.getElementById('chevron').classList.toggle('change');
-}
