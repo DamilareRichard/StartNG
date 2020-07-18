@@ -485,7 +485,7 @@ input[type="submit"] {
   position: relative;
   z-index: 2;
   top: -42px;
-  left: 192px;
+  left: 199px;
   width: 25%;
   padding: 8px 10px;
 }
@@ -547,20 +547,20 @@ input[type="submit"] {
 }
 
 .test-box {
-  top: 2530px;
+  top: 2520px;
   left: 15px;
   width: 90%;
 }
 
 .triangle {
-  top: 2500px;
+  top: 2489px;
   left: 270px;
   
 }
 
 .join-us {
   position: relative;
-  margin-top: 100px;
+  margin-top: 200px;
   margin-left: 10px;
   width: 95%;
   height: 70%;
